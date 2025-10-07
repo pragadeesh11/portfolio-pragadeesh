@@ -13,7 +13,7 @@ async function loadProjects() {
         <img src="${p.image}" alt="${p.title}" />
         <h4>${p.title}</h4>
         <p class="muted">${p.short}</p>
-        <p><a href="${p.link}" target="_blank" rel="noopener">View case study</a></p>
+        <p><a href="${p.link}" target="_blank" rel="noopener">View case study / UI designs</a></p>
       `;
       container.appendChild(el);
     });

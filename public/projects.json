@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "title": "Grocery Delivery \u2014 Case Study (Redesign)",
+      "short": "End-to-end redesign of a grocery delivery app focusing on search, checkout and tracking.",
+      "image": "assets/grocery-1.jpg",
+      "link": "case-studies/grocery.html"
+    },
+    {
+      "title": "Fintech App \u2014 Case Study (Onboarding & Quick Pay)",
+      "short": "Redesigned onboarding & quick-pay to increase KYC completion and transaction success.",
+      "image": "assets/fintech-1.jpg",
+      "link": "case-studies/fintech.html"
+    },
+    {
+      "title": "FUEGO \u2014 Clothing Brand Web App (Case Study)",
+      "short": "Web storefront and discovery flow for 'FUEGO' \u2014 a fast-fashion brand.",
+      "image": "assets/fuego-1.jpg",
+      "link": "case-studies/fuego.html"
+    },
+    {
+      "title": "Grocery App \u2014 UI Design Pack",
+      "short": "High-fidelity UI screens: Home, Category, Cart, Checkout (mockups).",
+      "image": "assets/grocery-ui.jpg",
+      "link": "assets/grocery-ui.jpg"
+    },
+    {
+      "title": "Fintech App \u2014 UI Design Pack",
+      "short": "Onboarding flows, quick-pay carousel and confirmation UI designs.",
+      "image": "assets/fintech-ui.jpg",
+      "link": "assets/fintech-ui.jpg"
+    },
+    {
+      "title": "Gaming App \u2014 UI Design Pack",
+      "short": "Storefront, live lobby, and player profile UI concepts for a mobile gaming app.",
+      "image": "assets/gaming-ui.jpg",
+      "link": "assets/gaming-ui.jpg"
+    },
+    {
+      "title": "FUEGO \u2014 Web App UI Designs",
+      "short": "Landing, collection, product detail and checkout UI screens for the clothing brand.",
+      "image": "assets/fuego-ui.jpg",
+      "link": "assets/fuego-ui.jpg"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pragadeesh Murugan — UI/UX & Frontend Developer</title>
+  <meta name="description" content="Portfolio of Pragadeesh Murugan — 4 years experience. Currently at Moon product, Bangalore." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Pragadeesh Murugan</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div>
+          <h2>Hi — I’m <span class="accent">Pragadeesh</span></h2>
+          <p class="lead">UI/UX Designer & Frontend Developer with 4 years of experience building polished, responsive product websites and interfaces. Currently at <strong>Moon product, Bangalore</strong>.</p>
+          <p><a class="cta" href="#contact">Get in touch</a> — pragadeeshm11@gmail.com</p>
+        </div>
+        <div class="hero-card">
+          <ul>
+            <li><strong>Experience:</strong> 4 years</li>
+            <li><strong>Company:</strong> Moon product, Bangalore</li>
+            <li><strong>Email:</strong> <a href="mailto:pragadeeshm11@gmail.com">pragadeeshm11@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>About</h3>
+      <p>I design user-centred interfaces and implement them into production-ready frontend code. I enjoy bridging the gap between product, design, and engineering — creating delightful experiences that solve real user problems.</p>
+      <p><strong>Skills:</strong> Figma, HTML5, CSS3, JavaScript, React (optional), Responsive design, Accessibility basics.</p>
+    </section>
+
+    <section id="experience" class="container section">
+      <h3>Experience</h3>
+      <article class="exp-card">
+        <h4>UI/UX Designer & Frontend Developer — Moon product, Bangalore</h4>
+        <p><em>2022 — Present</em></p>
+        <ul>
+          <li>Led UI efforts for product features and maintained component library in Figma.</li>
+          <li>Built responsive pages using semantic HTML, CSS, and vanilla JS / React prototypes.</li>
+          <li>Worked closely with PMs and backend engineers to ship features in Agile sprints.</li>
+        </ul>
+      </article>
+
+      <article class="exp-card">
+        <h4>Associate Designer — Previous Company</h4>
+        <p><em>2019 — 2022</em></p>
+        <ul>
+          <li>Worked on web dashboards, created wireframes, prototypes, and visual assets.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="container section">
+      <h3>Projects</h3>
+      <div id="projects-list" class="projects-grid">
+        <!-- Projects loaded from projects.json by script.js -->
+      </div>
+      <p class="note">Want the source? See README for deployment & editing instructions.</p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:pragadeeshm11@gmail.com">pragadeeshm11@gmail.com</a></p>
+
+      <form id="contact-form" action="/api/contact" method="post">
+        <label>
+          Name<br/>
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email<br/>
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message<br/>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div id="form-result" aria-live="polite"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Pragadeesh Murugan — Moon product, Bangalore · <a href="mailto:pragadeeshm11@gmail.com">pragadeeshm11@gmail.com</a></p>
+      <p class="small">This project includes an optional backend (server.js) for form handling. See README to deploy to GitHub Pages (frontend-only) or to deploy full stack to Render/Heroku.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

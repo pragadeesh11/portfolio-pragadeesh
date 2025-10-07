@@ -1,0 +1,39 @@
+
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#94a3b8;
+  --accent:#f97316;
+  --glass: rgba(255,255,255,0.03);
+  --max-width:1100px;
+  --container-padding:20px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:linear-gradient(180deg,#071028,var(--bg));color:#e6eef8;min-height:100%}
+.container{max-width:var(--max-width);margin:0 auto;padding:var(--container-padding);}
+.site-header{position:sticky;top:0;background:transparent;padding:14px 0;backdrop-filter: blur(6px);z-index:20}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:1.2rem;margin:0}
+.site-header nav a{color:var(--muted);margin-left:18px;text-decoration:none}
+.hero{padding:60px 0}
+.hero-inner{display:flex;gap:28px;align-items:center;justify-content:space-between}
+.lead{color:var(--muted);max-width:640px}
+.hero-card{background:var(--glass);border:1px solid rgba(255,255,255,0.03);padding:18px;border-radius:10px}
+.cta{display:inline-block;background:var(--accent);color:#081129;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600}
+.section{padding:40px 0}
+.exp-card{background:rgba(255,255,255,0.02);padding:18px;border-radius:8px;margin-bottom:12px}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:12px}
+.project{background:rgba(255,255,255,0.03);padding:12px;border-radius:8px}
+.project img{width:100%;height:140px;object-fit:cover;border-radius:6px}
+form label{display:block;margin-bottom:10px}
+input,textarea{width:100%;padding:10px;border-radius:6px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+button{background:var(--accent);border:none;padding:10px 14px;border-radius:8px;color:#081129;font-weight:600;cursor:pointer}
+.site-footer{padding:18px 0;border-top:1px solid rgba(255,255,255,0.03);margin-top:40px}
+.small{color:var(--muted);font-size:0.9rem}
+.note{color:var(--muted);font-size:0.95rem;margin-top:12px}
+
+@media (max-width:800px){
+  .hero-inner{flex-direction:column;align-items:flex-start}
+}

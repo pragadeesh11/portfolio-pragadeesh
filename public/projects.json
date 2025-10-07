@@ -27,7 +27,13 @@
     {
       "title": "Fintech App \u2014 UI Design Pack",
       "short": "Onboarding flows, quick-pay carousel and confirmation UI designs.",
-      "image": "assets/welcome.png, signup.png, quickpay.png, paymentconfirmation.png, transactionhistory.png",
+      "image": [
+        "assets/welcome.png",
+        "assets/signup.png",
+        "assets/quickpay.png",
+        "assets/paymentconfirmation.png",
+        "assets/transactionhistory.png",
+      ]
       "link": "assets/welcome.png, signup.png, quickpay.png, paymentconfirmation.png, transactionhistory.png"
     },
     {

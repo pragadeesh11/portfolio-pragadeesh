@@ -10,7 +10,9 @@ async function loadProjects() {
       const el = document.createElement('div');
       el.className = 'project';
       el.innerHTML = `
-        <img src="${p.image}" alt="${p.title}" />
+        ${Array.isArray(project.image)
+  ? project.image.map(img => `<img src="${img}" alt="${project.title}">`).join('')
+  : `<img src="${project.image}" alt="${project.title}">
         <h4>${p.title}</h4>
         <p class="muted">${p.short}</p>
         <p><a href="${p.link}" target="_blank" rel="noopener">View case study / UI designs</a></p>
